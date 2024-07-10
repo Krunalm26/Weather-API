@@ -1,0 +1,45 @@
+
+.weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: black;
+    background-color: rgb(130, 205, 208);
+    color: rgb(36, 36, 36);
+    display: none;
+}
+
+.weather-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.temp,
+.weather-desc,
+.humidity,
+.wind {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.temp span,
+.humidity span,
+.wind span {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.weather-desc img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.weather-desc span {
+    font-size: 18px;
+}
